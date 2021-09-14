@@ -1954,7 +1954,7 @@ input[type="checkbox"] {
 
 .header__icon,
 .header__icon--cart .icon {
-  padding: 1rem;
+  padding: 16px;
 }
 
 .header__icon--cart {
