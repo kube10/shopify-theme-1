@@ -9,18 +9,17 @@
     "colors_background_2": "#f3f3f3",
     "type_header_font": "sans-serif",
     "type_body_font": "assistant_n4",
-    "page_width": "1200",
+    "page_width": "1280",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify://shop_images/logo.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -42,14 +41,11 @@
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
             }
           }
         },
-        "block_order": [
-          "footer-0",
-          "footer-1"
-        ],
+        "block_order": ["footer-0", "footer-1"],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
@@ -61,9 +57,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -87,11 +81,8 @@
               }
             }
           },
-          "block_order": [
-            "announcement-bar-0"
-          ],
-          "settings": {
-          }
+          "block_order": ["announcement-bar-0"],
+          "settings": {}
         }
       }
     },
@@ -111,19 +102,14 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
-          "block_order": [
-            "menu",
-            "text"
-          ],
+          "block_order": ["menu", "text"],
           "settings": {
             "color_scheme": "accent-1"
           }
