@@ -1820,8 +1820,8 @@ input[type="checkbox"] {
   grid-template-areas: "left-icon heading icons";
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -1954,14 +1954,13 @@ input[type="checkbox"] {
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 4.4rem;
-  width: 4.4rem;
+  padding: 1rem;
 }
 
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
-  background-color: var(--color-foreground);
+  background-color: var(--color-base-accent-1);
 }
 
 @media screen and (max-width: 989px) {
